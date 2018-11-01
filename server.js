@@ -1,12 +1,12 @@
-const config = require("./config");
-const apiRouter = require ("./api");
-const path = require("path");
-const serverRender = require("./serverRender");
-const express = require("express");
-const server = express();
-const mongoose = require("mongoose");
-const models = require("./db/schema");
+import config from "./config";
+import apiRouter from "./api";
+import path from "path";
+import serverRender from "./serverRender";
+import express from "express";
+import mongoose from "mongoose";
+import models from "./db/schema";
 
+const server = express();
 
 server.get("/", (req, res) => {
 

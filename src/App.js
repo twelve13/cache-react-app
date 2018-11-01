@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from "./components/Header";
-import User from "./components/User";
+import User from "./components/User"; 
 
 class App extends Component {
 
@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <p>This is app.js</p>
+        <p>This is app.js testtest</p>
       </div>
     );
   }
